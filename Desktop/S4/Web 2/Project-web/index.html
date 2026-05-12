@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet-Web</title>
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="projet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Crete+Round:ital@0;1&family=Frank+Ruhl+Libre:wght@300..900&family=Funnel+Display:wght@300..800&family=Lexend:wght@100..900&family=Press+Start+2P&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+</head>
+
+<body>
+    <header  class="navbar">
+
+        <img id="logo" src="logo.png" alt="logo" >
+        <nav>
+            
+            <a class="header-link" href="#home">Home</a>
+            <a class="header-link" href="#apropos">À propos</a>
+            <a class="header-link" href="#competence">Competence</a>
+            <a class="header-link" href="#formation">Formation</a>
+            <a class="header-link" href="#projects">Project</a>
+            <a class="header-link" href="#contact">Contact</a>
+            
+        </nav>
+        <div><a href="#contact" id="contact-me">Contact-me</a></div>
+        
+    </header>
+
+        <div class="bio" id="home" >
+
+            <img src="5189544_20215.jpg" alt="" id="back">
+            <img src="black.jpg" alt="" id="black">
+            <img src="me.png" alt="" id="me">
+            <img src="ligne.png" alt="" id="ligne">
+            <h2 id="hi">Salut ! Je suis Ait Bounasser Salah Eddine</h2>
+            <h3>Étudiant en S4 Informatique à la FSSM</h3>
+            <h4>Passionné par le développement logiciel et les technologies web.</h3>
+            <section id="apropos"></section>
+            <h1 id="qui" >À propos de moi</h1>
+            <p id="apropos-paragraphe">Je suis étudiant en Informatique à la Faculté des Sciences Semlalia de Marrakech, passionné par le développement
+            web et la programmation. J’aime apprendre de nouvelles technologies et développer des projets qui me permettent d’améliorer mes compétences techniques et personnelles. Je m’intéresse particulièrement au développement frontend, à la programmation en C/C++, ainsi qu’aux bases de données et aux systèmes
+            d’exploitation. En dehors du coding, j’aime jouer aux jeux vidéo, jouer et regarder le football, ainsi que découvrir de nouvelles choses pendant mon temps libre. Je suis une personne calme, chill, motivée et toujours prête à apprendre et à progresser davantage dans le domaine de l’informatique.</p>
+            <img src="illustrition.png" alt="" id="illustrition">
+
+        </div>
+
+            <img src="ligne2.png" alt="" id="ligne2">
+
+        <div id="competence"></div>
+        
+        <div class="competence" >
+        <h1 id="h1-comp">Mes Compétences</h1>
+        <p id="p-comp" >Les technologies et compétences que j’ai développées durant mon parcours académique et personnel.</p>
+        <h2 id="skills">Mes skills</h2>
+        <div id="react-root"></div>
+        </div>
+
+        </div>
+
+        <img src="ligne2.png" alt="" id="ligne3">
+
+
+        <div id="formation" class="formation">
+
+            <h1 id="h1-form">Education</h1>
+            <div class="bac">
+                <p id="23">2022-2023</p>
+                <p id="bac">Baccalauréat en Sciences Physiques et Chimie — Option Française</p>
+            </div>
+            <div class="fac">
+                <p id="24">2024-2025</p>
+                <p id="mip">MIP (Mathématiques, Informatique et Physique) Faculté des Sciences Semlalia — Marrakech</p>
+                <p id="25 idinfo">2025-2026</p>
+                <p>Informatique — S3 & S4 Faculté des Sciences Semlalia — Marrakech</p>
+            </div>
+            <img id="educ" src="edu.png" alt="" >
+
+        </div>
+
+        <h1 id="h1-pro">Projets</h1>
+        <div id="projects" class="projects">
+            
+            <div class="game">
+                <img id="game2d" src="projet1.png" alt="">
+                <p id="bullet">Bullet Escape</p>
+                <p id="2d">Jeu 2D développé avec C++ et SFML où le joueur doit éviter des obstacles et survivre le plus longtemps possible. Le projet inclut des animations, un système de collision, un menu interactif et une gestion du score.</p>
+                <p id="tech"><strong>Technologies</strong> : C++ , SFML</p>
+            </div>
+            <div class="website">
+                <img id="style" src="StyleAurabone.png" alt="">
+                <p id="aura">StyleAura</p>
+                <p id="site">Création d’un site web moderne de mode et vêtements avec une interface élégante et responsive. Le projet inclut une navigation interactive, des animations visuelles et une présentation dynamique des produits.</p>
+                <p id="tech"><strong>Technologies</strong> : HTML , CSS , JavaScript</p>
+            </div>
+        </div>
+
+
+        <div id="contact" class="contact">
+            <div id="tact">
+            <h1 id="cont">Contactez-moi</h1>
+            <p id="con">N’hésitez pas à me contacter pour toute collaboration, projet ou opportunité.</p>
+            <form action="projet.html" method="post" id="contact-form">
+                <div class="nom">
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" required name="nm">
+            </div>
+            <div class="email">
+                <label for="email">Email</label>
+                <input type="email" id="email" required name="em">
+            </div>
+            <div class="message">
+                <label for="mess">Message</label>
+                <textarea  id="mess" rows="5" cols="30" name="tact" required></textarea>
+            </div>
+
+                <input type="submit" name="in" id="sub">
+                <div id="alert-box">
+                Message envoyé avec succès !
+                </div>
+            </form>
+        </div>
+        <div id="logos">
+            <a href="https://www.linkedin.com/feed/"><img src="1.png" id="linkedin" alt=""></a>
+            <a href="https://github.com/"><img id="discord" src="2.png" alt=""></a>
+        </div>
+        </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="projet.js"></script>
+    <script type="text/babel" src="react.js"></script>
+</body>
+</html>
